@@ -1,0 +1,9 @@
+{
+  "key.category.wildernesscull.general": "WildernessCull Performance",
+  "key.wildernesscull.toggle_culling": "Toggle Entity Culling",
+  "key.wildernesscull.print_stats": "Show Culling & Particle Stats",
+  "key.wildernesscull.reset_config": "Reset WildernessCull Config to Defaults",
+  "wildernesscull.msg.culling_on": "[WildernessCull] Conservative Entity Culling: ENABLED",
+  "wildernesscull.msg.culling_off": "[WildernessCull] Conservative Entity Culling: DISABLED",
+  "wildernesscull.msg.config_reset": "[WildernessCull] Configuration reset to safe defaults."
+}

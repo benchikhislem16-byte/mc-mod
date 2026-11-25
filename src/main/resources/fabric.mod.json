@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "wildernesscull",
+  "version": "${version}",
+  "name": "WildernessCull",
+  "description": "Conservative client-side entity culling, particle optimization, and off-screen animation throttling for Minecraft 26.3.",
+  "authors": [
+    "WildernessCull Team"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/example/wilderness-cull"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.wildernesscull.WildernessCullClient"
+    ]
+  },
+  "mixins": [
+    "wildernesscull.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "conflicts": {
+    "entityculling": "*"
+  }
+}
